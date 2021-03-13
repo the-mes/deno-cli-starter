@@ -1,27 +1,18 @@
 import { Denomander } from "./deps.ts";
 
-import geoLocation from "./commands/geoLocation.ts";
-import diskLocation from "./commands/diskLocation.ts";
+import example from "./commands/example.ts";
 
 const program = new Denomander({
-  app_name: "Where is my Deno",
-  app_description: "Get Deno location (geolocation and directory on your disk)",
+  app_name: "<CLI_DISPLAY_NAME_HERE>",
+  app_description: "<DESCRIPTION_HERE>",
   app_version: "1.0.0",
 });
 
 program
-  .command("where-is-my-deno", "Get Deno location")
-  .alias("my-deno", "wimd")
-  .option("-g --geo", "Computer geolocation")
-  .option("-d --disk", "Directory on disk")
-  .action(async () => {
-    const { geo, disk } = program;
-
-    if (geo) await geoLocation();
-
-    if (geo && disk) console.log("");
-
-    if (disk) diskLocation();
-  });
+  .command("<CLI_SLUG_NAME_HERE>", "<COMMAND_DESCRIPTION_HERE>")
+  .alias("<ALIAS_HERE>", "<ALIAS_HERE>")
+  .option("<OPTION_HERE>", "<OPTION_DESCRIPTION_HERE>")
+  .option("<OPTION_HERE>", "<OPTION_DESCRIPTION_HERE>")
+  .action(example);
 
 program.parse(Deno.args);

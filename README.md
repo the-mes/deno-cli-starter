@@ -1,10 +1,8 @@
-# [Where is my Deno](https://github.com/awesome-cli/where-is-my-deno)
+# [<CLI_DISPLAY_NAME_HERE>](https://github.com/<USER_OR_ORGANIZATION_NAME_HERE>/<REPO_NAME_HERE>)
 
 ## About
 
-Get Deno location (geolocation and directory on your disk)
-
-**If you use Node.js, please check out [where-is-my-node](https://github.com/awesome-cli/where-is-my-node)**
+<DESCRIPTION_HERE>
 
 ## Prerequisites
 
@@ -13,22 +11,22 @@ Get Deno location (geolocation and directory on your disk)
 ## How to Install
 
 ```sh
-$ deno install --allow-net --allow-env --name where-is-my-deno https://raw.githubusercontent.com/awesome-cli/where-is-my-deno/master/mod.ts
+$ deno install --allow-net --allow-env --name <CLI_SLUG_NAME_HERE> https://raw.githubusercontent.com/<USER_OR_ORGANIZATION_NAME_HERE>/<REPO_NAME_HERE>/master/mod.ts
 ```
 
 ## How to Use
 
 ```sh
-$ where-is-my-deno <options>
+$ <CLI_SLUG_NAME_HERE> <options>
 ```
 
-**Instead of `where-is-my-deno` you can use aliases: `my-deno` & `wimd`**
+**Instead of `<CLI_SLUG_NAME_HERE>` you can use aliases: `<ALIAS_HERE>` & `<ALIAS_HERE>`**
 
 ## Options
 
-- `-g, --geo` output computer geolocation
-- `-d, --disk` output directory on disk
+- `<OPTION_HERE>` <OPTION_DESCRIPTION_HERE>
+- `<OPTION_HERE>` <OPTION_DESCRIPTION_HERE>
 
 ## License
 
-This project is licensed under the MIT License © 2020-present Jakub Biesiada
+This project is licensed under the MIT License © <YEAR_HERE>-present <AUTHOR_HERE>
