@@ -26,7 +26,7 @@ $ deno-cli-starter <options>
 
 ## Options
 
-- `-b --blue` <OPTION_DESCRIPTION_HERE>
+- `-b, --blue` display message in blue
 
 ## License
 
