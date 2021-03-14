@@ -11,7 +11,7 @@ const program = new Denomander({
 program
   .command("deno-cli-starter", "Display example message")
   .alias("dcs", "deno-starter")
-  .option("-b --blue", "Display message in blue")
+  .option("-b, --blue", "display message in blue")
   .action(example);
 
 program.parse(Deno.args);
