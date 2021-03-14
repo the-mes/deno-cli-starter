@@ -1,7 +1,11 @@
 import { blue } from "../deps.ts";
 
 const example = () => {
-  console.log(blue(`I'm blue, da ba dee da ba daa`));
+  if (program.blue) {
+    return console.log(blue(`I'm blue, da ba dee da ba daa`));
+  }
+
+  console.log("Example message");
 };
 
 export default example;

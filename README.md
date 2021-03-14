@@ -8,6 +8,8 @@
 
 - Deno
 
+<!-- TODO add startup process section -> deno run ... -->
+
 ## How to Install
 
 ```sh

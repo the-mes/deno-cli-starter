@@ -9,9 +9,9 @@ const program = new Denomander({
 });
 
 program
-  .command("deno-cli-starter", "<TODO>")
+  .command("deno-cli-starter", "Display example message")
   .alias("dcs", "deno-starter")
-  .option("<OPTION_HERE>", "<OPTION_DESCRIPTION_HERE>")
+  .option("-b --blue", "Display message in blue")
   .action(example);
 
 program.parse(Deno.args);
