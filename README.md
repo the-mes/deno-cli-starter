@@ -11,7 +11,7 @@
 ## How to Install
 
 ```sh
-$ deno install --allow-net --allow-env --name deno-cli-starter https://raw.githubusercontent.com/the-mes/deno-cli-starter/master/mod.ts
+$ deno install --allow-net --allow-env --name deno-cli-starter https://raw.githubusercontent.com/the-mes/deno-cli-starter/main/mod.ts
 ```
 
 ## How to Use
