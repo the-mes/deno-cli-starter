@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-- Deno
+- [Deno](https://deno.land/)
 
 ## How to Install
 
