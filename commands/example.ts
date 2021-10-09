@@ -5,7 +5,7 @@ const example = () => {
     return console.log(blue(`I'm blue, da ba dee da ba daa`));
   }
 
-  console.log("Example message");
+  console.log("Sample message");
 };
 
 export default example;
