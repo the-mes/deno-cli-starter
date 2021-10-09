@@ -2,7 +2,7 @@
 
 ## About
 
- Template for Deno CLI app
+Template for Deno CLI app
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ deno-cli-starter <options>
 
 ## Options
 
-- `-b, --blue` display message in blue
+- `-b, --blue` display the message in blue
 
 ## License
 
