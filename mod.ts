@@ -9,7 +9,7 @@ const program = new Denomander({
 });
 
 program
-  .command("deno-cli-starter", "Display an example message")
+  .command("deno-cli-starter", "Display a sample message")
   .alias("dcs", "deno-starter")
   .option("-b, --blue", "display the message in blue")
   .action(example);
